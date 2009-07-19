@@ -1,0 +1,4 @@
+class LoadAsciiController {
+
+    def index = { }
+}
