@@ -1,0 +1,2 @@
+// Yep the whole filie ;)  notice the 'ti' object, which is  terminfo object.
+println('<span class="word size' + cloud.getClassFromPercent((ti.docFreq / cloud.max) * 100) + '"><a href="http://' + ti.term.text() + '/">' + ti.term.text() + '</a></span>')

@@ -35,7 +35,7 @@ grails.enable.native2ascii = true
 // set per-environment serverURL stem for creating absolute links
 environments {
     production {
-        grails.serverURL = "http://www.changeme.com"
+        grails.serverURL = "http://cloud.yestech.org"
     }
 }
 
@@ -62,5 +62,7 @@ log4j = {
     warn   'org.mortbay.log'
 }
 
+//grails.taggable.tag.table="MY_TAGS"
+//grails.taggable.tagLink.table="MY_TAG_LINKS"
 
      

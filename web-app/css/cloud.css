@@ -1,0 +1,641 @@
+HTML, BODY, FORM, LI, TD, TH, INPUT, SELECT, TEXTAREA, BUTTON, OPTION {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 1em;
+}
+
+HTML, BODY {
+	margin: 0;
+	padding: 0;
+}
+
+BODY {
+	color: black;
+	background: #fff url(../images/graph20.png);
+	font-size: 0.85em;
+}
+
+H1 {
+	font-size: 1.25em;
+}
+H2 {
+	font-size: 1.20em;
+}
+H3 {
+	font-size: 1.15em;
+}
+H4 {
+	font-size: 1.10em;
+}
+H5 {
+	font-size: 1.05em;
+}
+H6 {
+	font-size: 1em;
+}
+
+UL.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+UL.nav LI {
+	margin: 0 0 0.2em 0;
+	padding: 0;
+}
+
+UL.nav LI.navbreak {
+	margin-top: 1em;
+}
+
+A, A:link, A:hover, A:active, A:visited {
+	text-decoration: none;
+	color: #228833;
+}
+
+A:hover {
+	color: #22cc33;
+}
+
+A.external {
+	padding-right: 16px;
+	background: url(../images/silk/bullet_go.png) right no-repeat;
+}
+
+A.permalink {
+	padding-left: 18px;
+	background: url(../images/silk/bullet_key.png) left no-repeat;
+}
+
+/*
+A.tag {
+	padding-left: 18px;
+	background: url(../images/silk/bullet_tag.png) left no-repeat;
+}
+*/
+
+A.add {
+	padding-left: 12px;
+	background: url(../images/silk/bullet_add.png) -3px no-repeat;
+}
+
+A.edit {
+	padding-left: 18px;
+	background: url(../images/silk/bullet_wrench.png) left no-repeat;
+}
+
+A.delete {
+	padding-left: 12px;
+	background: url(../images/silk/bullet_delete.png) -3px no-repeat;
+}
+
+#header {
+	height: 100px;
+}
+
+#logo {
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	height: 100px;
+	background-image: url(../images/randomcoder-logo.png);
+	background-repeat: no-repeat;
+}
+
+#left {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	margin: 0 1.5em 1.5em 1.5em;
+	padding: 0;
+	width: 12em;
+}
+
+#content {
+	margin: 0 15em 1.5em 15em;
+	padding: 0;
+}
+
+.content {
+	padding: 0em;
+}
+
+#right {
+	position: absolute;
+	top: 100px;
+	right: 0px; /* Opera5.02 will show a space
+	at right when there is no scroll bar */
+	margin: 0 1.5em 1.5em 1.5em;
+	padding: 0;
+	width: 12em;
+}
+
+#footer {
+	text-align: center;
+	font-size: 0.8em;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.sectionHeading {
+	color: #ffffff;
+	background-color: #2c6356;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0;
+	padding: 0.2em 0.5em 0.15em 0.5em;
+	overflow: hidden;
+}
+
+.sectionSubHeading {
+	color: #666666;
+	background-color: #f0f0f0;
+	font-weight: normal;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-align: right;
+	margin: 0;
+	border-style: solid;
+	border-color: #2c6356;
+	border-width: 0 1px;
+	padding: 0.2em 0.5em 0.3em 0.5em;
+}
+
+.sectionContent, .sectionContentFull {
+	background-color: #ffffff;
+	color: #000000;
+	border-style: solid;
+	border-color: #2c6356;
+	border-width: 0 1px 1px 1px;
+	padding: 0.5em;
+	font-size: 1em;
+	margin-bottom: 2em;
+}
+
+.sectionContentFull {
+	padding: 0;
+}
+
+.sectionFooter {
+	margin-top: 0.5em;
+	text-align: right;
+	font-size: 0.9em;
+	color: #2c6356;
+}
+
+#left .sectionHeading,
+#right .sectionHeading {
+	font-size: 0.9em;
+	margin: 0;
+}
+
+#right .sectionHeading {
+	text-align: right;
+}
+
+#left .sectionContent,
+#right .sectionContent {
+	font-size: 0.9em;
+	padding: 0.4em;
+	margin-bottom: 1.5em;
+	border-width: 1px;
+	overflow: hidden;
+}
+
+TABLE.calendar {
+	border-collapse: collapse;
+	border-width: 0;
+	margin-bottom: 0.3em;
+}
+
+.calendar THEAD TR TH,
+.calendar TBODY TR TD {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	width: 2.1em;
+}
+
+.sectionHeading A,
+.sectionHeading A:link,
+.sectionHeading A:visited,
+.sectionHeading A:active,
+.sectionHeading A:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.sectionHeading A:hover {
+	color: #e0e0b0;
+}
+
+.calendar THEAD TR TH {
+	color: #2c6356;
+	padding: 0.1em 0;
+	font-weight: bold;
+	border-bottom: 1px solid #2c6356;
+}
+
+.calendar THEAD TR TH.calendar-weekend {
+	background-color: #e0e0e8;
+}
+
+.calendar TBODY TR TD {
+	margin: 0;
+	padding: 0.15em 0;
+	font-weight: normal;
+	color: #2c6356;
+	background-color: #ffffff;
+}
+
+.calendar TBODY TR TD A,
+.calendar TBODY TR TD A:link,
+.calendar TBODY TR TD A:hover,
+.calendar TBODY TR TD A:active,
+.calendar TBODY TR TD A:visited {
+	color: #228833;
+	text-decoration: none;
+	display: block;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	margin: 0;
+	font-weight: bold;
+}
+
+.calendar TBODY TR TD A:hover {
+	color: #22cc33;
+}
+
+.calendar TBODY TR TD.calendar-weekend {
+	background-color: #e0e0e8;
+}
+.calendar TBODY TR TD.calendar-selected {
+	background-color: #ffeebb;
+}
+
+.calendar TBODY TR TD.calendar-today,
+.calendar TBODY TR TD.calendar-today A,
+.calendar TBODY TR TD.calendar-today A:link,
+.calendar TBODY TR TD.calendar-today A:visited,
+.calendar TBODY TR TD.calendar-today A:active {
+	color: #22aa33;
+}
+
+.pager {
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+.hidden {
+	display: none;
+}
+
+FORM
+{
+	margin: 0;
+	padding: 0.5em;
+}
+
+#left FORM,
+#right FORM
+{
+	padding: 0 0.3em 0.5em 0.3em;
+	font-size: 0.9em;
+}
+
+.fields
+{
+	position: relative;
+	margin: 0.6em 0;
+	padding: 1px;
+}
+
+.fields LABEL
+{
+	position: absolute;
+	display: block;
+	text-align: right;
+	width: 10em;
+	line-height: 1.7em;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+}
+
+#left .fields LABEL,
+#right .fields LABEL
+{
+	position: relative;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	left: auto;
+	top: auto;
+}
+
+#left .fields LABEL
+{
+	text-align: left;
+}
+
+#right .fields LABEL
+{
+	text-align: right;
+}
+
+.required LABEL, .required LEGEND
+{
+	font-weight: bold;
+}
+
+.fields INPUT.text,
+.fields INPUT.password,
+.fields SELECT,
+.fields TEXTAREA,
+.fields DIV.buttons,
+.fields SPAN.constant
+{
+	margin: 0 0 0 10.5em;
+	width: 300px;
+}
+
+.fields SPAN.constant
+{
+	display: block;
+	font-weight: bold;
+	line-height: 1.7em;
+}
+
+#left .fields INPUT.text,
+#left .fields INPUT.password,
+#left .fields SELECT,
+#left .fields TEXTAREA,
+#left .fields DIV.buttons,
+#right .fields INPUT.text,
+#right .fields INPUT.password,
+#right .fields SELECT,
+#right .fields TEXTAREA,
+#right .fields DIV.buttons
+{
+	margin: 0;
+	width: 10em;
+}
+
+INPUT.submit, INPUT.button
+{
+	margin-right: 0.5em;
+}
+
+#left INPUT.submit, INPUT.button
+{
+	margin-left: 0;
+	margin-right: 0.5em;
+}
+
+#right INPUT.submit, INPUT.button
+{
+	margin-left: 0.5em;
+	margin-right: 0;
+}
+
+.fields DIV.buttons
+{
+	width: auto;
+}
+
+.fields TEXTAREA
+{
+	width: 300px;
+	padding: 0.15em;
+}
+
+.fields DIV
+{
+	position: relative;
+}
+
+FORM DIV.error
+{
+	padding: 0.6em 0;
+	background: #ffffcc url(../images/required_bg.gif) no-repeat;
+	border: 1px solid red;
+}
+
+DIV.error SPAN.error
+{
+	display: block;
+	margin: 0 0 0 11em;
+	padding: 0.1em 0 0.5em 2.25em;
+	font-size: 0.8em;
+	color: red;
+	background: url(../images/silk/exclamation.png) no-repeat;
+}
+
+DIV.globalError
+{
+	background: #ffffcc;
+	border: 1px solid red;
+	display: block;
+	margin: 0 0 1em 0;
+	padding: 0.2em 0.2em 0.2em 2.2em;
+	color: red;
+	background: #ffffcc url(../images/silk/exclamation.png) 0.5em 0.25em no-repeat;
+}
+
+FIELDSET.checkbox, FIELDSET.radio
+{
+	margin-left: 10em;
+	width: 300px;
+}
+
+FIELDSET.checkbox DIV, FIELDSET.radio DIV
+{
+	margin-top: 0.25em;
+}
+
+
+DIV.checkbox, DIV.radio
+{
+	margin-left: 10em;
+}
+
+#left DIV.checkbox,
+#left DIV.radio
+{
+	margin-left: 0;
+}
+
+#right DIV.checkbox,
+#right DIV.radio
+{
+	margin-left: 0;
+}
+
+FIELDSET.checkbox LABEL, FIELDSET.radio LABEL,
+DIV.checkbox LABEL, DIV.radio LABEL
+{
+	margin-left: 0;
+	padding: 0;
+	width: auto;
+	left: 1.9em;
+	line-height: 1.5em;
+}
+
+#left DIV.checkbox LABEL,
+#left DIV.radio LABEL,
+#right DIV.checkbox LABEL,
+#right DIV.radio LABEL
+{
+	position: relative;
+	display: inline;
+	top: auto;
+	left: auto;
+}
+
+INPUT.checkbox, INPUT.radio
+{
+	margin-left: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+#left INPUT.checkbox,
+#left INPUT.radio,
+#right INPUT.checkbox,
+#right INPUT.radio
+{
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.required FIELDSET LABEL
+{
+	font-weight: normal;
+}
+
+DIV.error FIELDSET.checkbox SPAN.error,
+DIV.error FIELDSET.radio SPAN.error
+{
+	margin: 0.2em 0.3em;
+}
+
+DIV.long SPAN.error
+{
+	margin-left: 0.5em;
+}
+
+DIV.long LABEL
+{
+	position: relative;
+	display: block;
+	margin-left: 0.5em;
+	width: auto;
+	text-align: left;
+}
+
+DIV.long TEXTAREA
+{
+	margin-left: 0.5em;
+	width: 96%;
+}
+
+DIV.long DIV.buttons
+{
+	margin-left: 0.5em;
+}
+
+.description
+{
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+DIV.description
+{
+	margin-top: 0.4em;
+	margin-left: 11.5em;
+}
+
+DIV.long DIV.description
+{
+	margin-left: 0.4em;
+}
+
+FIELDSET.radio DIV.description,
+FIELDSET.checkbox DIV.description
+{
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+	margin-bottom: 0.5em;
+}
+
+BLOCKQUOTE
+{
+	border: 1px dashed #999;
+	padding: 0.5em;
+	margin: 0.5em 2em;
+	color: #000;
+	background-color: #e8e8e8;
+}
+
+.validation
+{
+	margin-bottom: 0.5em;
+}
+
+.validation A,
+.validation A:hover,
+.validation A:active,
+.validation A:link,
+.validation A:visited
+{
+	text-decoration: none;
+}
+
+.validation IMG
+{
+	border: 0;
+}
+
+.even
+{
+	background-color: #ffffff;
+}
+
+.odd
+{
+	background-color: #f0f0f0;
+}
+
+DIV.even, DIV.odd
+{
+	padding: 0.3em 0.5em;
+}
+
+.actions
+{
+	float: right;
+	font-size: 0.8em;
+	padding-top: 0.25em;
+}
+
+.details
+{
+	font-size: 0.8em;
+	margin: 0.25em 2em;
+}
+
+.tagCloud { font-size: 0.8em; }
+
+.cloud0 { font-size: 1.00em; }
+.cloud1 { font-size: 1.10em; }
+.cloud2 { font-size: 1.20em; }
+.cloud3 { font-size: 1.30em; }
+.cloud4 { font-size: 1.40em; }
+.cloud5 { font-size: 1.50em; }
+.cloud6 { font-size: 1.60em; }
+.cloud7 { font-size: 1.70em; }
+.cloud8 { font-size: 1.80em; }
+.cloud9 { font-size: 1.90em; }
