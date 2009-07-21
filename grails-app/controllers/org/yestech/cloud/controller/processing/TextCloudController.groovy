@@ -1,3 +1,5 @@
+package org.yestech.cloud.controller.processing
+
 import org.yestech.cloud.TextCloud
 import org.yestech.cloud.search.TextCloudService
 import org.yestech.cloud.TextCloud

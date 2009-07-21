@@ -1,3 +1,4 @@
+package org.yestech.cloud.controller
 //import org.compass.core.engine.SearchEngineQueryParseException
 
 /*
