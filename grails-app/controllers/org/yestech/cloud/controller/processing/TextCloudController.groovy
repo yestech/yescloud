@@ -2,12 +2,11 @@ package org.yestech.cloud.controller.processing
 
 import org.yestech.cloud.TextCloud
 import org.yestech.cloud.search.TextCloudService
-import org.yestech.cloud.TextCloud
 
 class TextCloudController {
   TextCloudService textCloudService
   TextCloud textCloud
-
+  
   def index = {
     redener 'please call the service correctly'
   }
@@ -17,7 +16,6 @@ class TextCloudController {
     textCloudService.save(textCloud)
     textCloud.addTag("testing")
     textCloudService.save(textCloud)
-
     render 'done....'
   }
 

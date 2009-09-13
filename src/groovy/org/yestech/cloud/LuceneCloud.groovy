@@ -2,12 +2,12 @@ package org.yestech.cloud
 
 import javax.script.ScriptEngine
 import javax.script.ScriptEngineManager
-import org.apache.commons.logging.Log
-import org.apache.commons.logging.LogFactory
-import org.apache.lucene.index.IndexReader
-import org.apache.lucene.index.TermEnum
-import org.apache.lucene.store.Directory
-import org.apache.lucene.store.FSDirectory
+//import org.apache.commons.logging.Log
+//import org.apache.commons.logging.LogFactory
+//import org.apache.lucene.index.IndexReader
+//import org.apache.lucene.index.TermEnum
+//import org.apache.lucene.store.Directory
+//import org.apache.lucene.store.FSDirectory
 import org.yestech.cloud.TermInfo
 import org.yestech.cloud.TermInfoQueue
 
@@ -18,7 +18,7 @@ import org.yestech.cloud.TermInfoQueue
  */
 
 public class LuceneCloud {
-  private static final Log LOG = LogFactory.getLog(LuceneCloud.class);
+//  private static final Log LOG = LogFactory.getLog(LuceneCloud.class);
 
   public boolean option_skip_three = false;
   public boolean option_skip_numbers = false;

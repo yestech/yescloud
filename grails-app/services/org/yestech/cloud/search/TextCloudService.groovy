@@ -12,8 +12,16 @@ import org.yestech.cloud.TextCloud
  */
 
 public class TextCloudService {
+//  def tinyurlService
 
   def save(TextCloud textCloud) {
+//      def post = new Post(params)
+////save your post
+//def newUrl = tinyurlService.tiny(post.link)
+//
+////set your twitter status
+//twitter.post("I've just posted about ${post.title} right here: ${newUrl}")
+
     textCloud.save();
   }
 
@@ -26,6 +34,7 @@ public class TextCloudService {
   }
 
   def loadCloud(key) {
+      TextCloud.termFreqs("tag", size : 10);
 //    return TextCloud.get(id);
   }
 

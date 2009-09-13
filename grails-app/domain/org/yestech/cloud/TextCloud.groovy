@@ -21,5 +21,6 @@ import org.grails.taggable.Taggable
 //	@NamedQuery(name = "Article.ByPermalink", query = "from Article a where a.permalink = ?")
 //})
 public class TextCloud implements Taggable {
-  private String permlink
+    static searchable = true
+    private String permlink
 }
