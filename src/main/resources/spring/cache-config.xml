@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright (c) 2009. Blackbox, LLC
-  ~ All rights reserved.
+  ~ Copyright LGPL3
+  ~ YES Technology Association
+  ~ http://yestech.org
+  ~
+  ~ http://www.opensource.org/licenses/lgpl-3.0.html
   -->
 
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -20,16 +23,7 @@
     <aop:aspectj-autoproxy/>
     <context:annotation-config/>
     <context:component-scan base-package="org.yestech"/>
-    <!--<tx:annotation-driven/>-->
-    
-    <bean class="org.yestech.lib.spring.property.PropertyAnnotationAndPlaceholderConfigurer"
-          p:systemPropertiesMode="2">
-        <property name="locations">
-            <util:list>
-                <value>classpath:/app.properties</value>
-            </util:list>
-        </property>
-    </bean>
 
-    <bean id="compassManager" class="org.yestech.cloud.service.CompassManager" p:rootDir="${compass.root.path}"/>
+    <bean id="compassPool" class="org.yestech.cache.impl.ConcurrentHashMapCacheManager"/>
+    
 </beans>

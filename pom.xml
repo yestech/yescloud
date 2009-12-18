@@ -85,6 +85,7 @@
         <lucene.version>2.4.1</lucene.version>
         <!--<jdbc.version>1.8.0.5</jdbc.version>-->
         <yeslib.version>1.2.0-SNAPSHOT</yeslib.version>
+        <yescache.version>1.2.0-SNAPSHOT</yescache.version>
         <!--<yesevent.version></yesevent.version>-->
     </properties>
     <dependencies>
@@ -104,8 +105,8 @@
             <groupId>com.googlecode.htmleasy</groupId>
             <artifactId>htmleasy</artifactId>
             <version>0.6</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/libs/htmleasy-0.6.jar</systemPath>
+            <!--<scope>system</scope>-->
+            <!--<systemPath>${basedir}/src/main/libs/htmleasy-0.6.jar</systemPath>-->
         </dependency>
         <!--<dependency>-->
         <!--<groupId>com.h2database</groupId>-->
@@ -246,6 +247,11 @@
             <groupId>org.yestech</groupId>
             <artifactId>yeslib</artifactId>
             <version>${yeslib.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.yestech</groupId>
+            <artifactId>yescache</artifactId>
+            <version>${yescache.version}</version>
         </dependency>
         <!--<dependency>-->
             <!--<groupId>commons-dbcp</groupId>-->
