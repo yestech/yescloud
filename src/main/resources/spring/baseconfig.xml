@@ -19,7 +19,7 @@
 
     <aop:aspectj-autoproxy/>
     <context:annotation-config/>
-    <context:component-scan base-package="org.yestech"/>
+    <context:component-scan base-package="org.yestech.lib.web,org.yestech.cloud"/>
     <!--<tx:annotation-driven/>-->
     
     <bean class="org.yestech.lib.spring.property.PropertyAnnotationAndPlaceholderConfigurer"
