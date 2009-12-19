@@ -20,9 +20,10 @@
         >
     <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
 
-    <aop:aspectj-autoproxy/>
-    <context:annotation-config/>
-    <context:component-scan base-package="org.yestech"/>
+    <context:component-scan base-package="org.yestech.cache"/>
+
+    <!--<aop:aspectj-autoproxy/>-->
+    <!--<context:annotation-config/>-->
 
     <bean id="compassPool" class="org.yestech.cache.impl.ConcurrentHashMapCacheManager"/>
     
