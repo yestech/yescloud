@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Cloud</string>
+    <string name="app_version">${project.version}</string>
+    <string name="url">${project.url}</string>
+    <string name="copyright">YES Technology (1999-2010)</string>
+    <string name="copyright_holder_url">http://yestech.org</string>
+    <string name="quit">Quit</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="developers">Artie Copeland</string>
+    <string name="developers_label">Team</string>
+    <string name="copyright_label">Copyright</string>
+    <string name="help_url">http://mycloud.com/help/mobile/</string>
+    <string name="close_button">Close</string>
+    <string name="create_button">Yes</string>
+    <string name="cancel_button">No</string>
+    <string name="about_title">My Cloud</string>
+    <string name="about_text">
+        ${project.version}\n${project.url}\n\n
+        Team\nArtie Copeland\n\n
+        \u00A9 YES Technology 2010\nhttp://yestech.org
+    </string>
+</resources>
