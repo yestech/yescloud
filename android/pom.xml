@@ -17,8 +17,8 @@
     <description>Android app for yes cloud
     </description>
     <scm>
-        <connection>cm:git:git@github.com:yestechyestech/yescloud.git</connection>
-        <developerConnection>cm:git:git@github.com:yestech/yescloud.git</developerConnection>
+        <connection>scm:git:git@github.com:yestechyestech/yescloud.git</connection>
+        <developerConnection>scm:git:git@github.com:yestech/yescloud.git</developerConnection>
         <url>http://github.com/yestech/yescloud/tree/master</url>
     </scm>
     <organization>
