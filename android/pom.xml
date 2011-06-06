@@ -49,10 +49,10 @@
     </ciManagement>
     <properties>
         <scala.version>2.8.1</scala.version>
-        <android.sdk.version>2.1.2</android.sdk.version>
+        <android.sdk.version>2.2.1</android.sdk.version>
         <android.sdk.home>/usr/local/android-sdk</android.sdk.home>
-        <maven-android-plugin.version>2.6.0</maven-android-plugin.version>
-        <android.platform.version>7</android.platform.version>
+        <maven-android-plugin.version>2.8.3</maven-android-plugin.version>
+        <android.platform.version>8</android.platform.version>
         <!--<android.virtual.device>avd_2.1</android.virtual.device>-->
         <android.virtual.device>avd_2.2</android.virtual.device>
         <!--<jdk.rt>${java.home}/lib/rt.jar</jdk.rt>-->
